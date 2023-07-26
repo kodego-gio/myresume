@@ -4,7 +4,20 @@
     box-sizing: border-box;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
 /* -------------------------------------------------------------- Header Section--------------------------------------------------------------- */
+
+
 .header__grid {
     grid-area: header;
 }
